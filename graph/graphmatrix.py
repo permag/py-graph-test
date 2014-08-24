@@ -19,21 +19,3 @@ class Graph:
 
 	def add_edge(self, src_node, targ_node):
 		self._node_matrix[src_node-1][targ_node-1] = 1
-
-
-
-graph = MyGraph()
-graph.add_node(1)
-graph.add_node(2)
-graph.add_node(3)
-graph.add_node(4)
-
-graph.add_edge(1, 2)
-graph.add_edge(1, 3)
-graph.add_edge(2, 3)
-graph.add_edge(2, 4)
-graph.add_edge(4, 1)
-
-
-print graph.node_matrix
-
