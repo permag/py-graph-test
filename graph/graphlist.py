@@ -7,7 +7,7 @@ class Graph:
     def __init__(self):
         self._node_dict = {}
 
-    
+
     @property
     def node_dict(self):
         return self._node_dict
